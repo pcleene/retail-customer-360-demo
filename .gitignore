@@ -1,0 +1,36 @@
+# Environment
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Node / SvelteKit
+frontend/node_modules/
+frontend/.svelte-kit/
+frontend/build/
+
+# IDE
+.vscode/
+.idea/
+.claude/
+.cursor/
+*.swp
+*.swo
+.DS_Store
+
+# GCP
+application_default_credentials.json
+
+# Private internal prompts / notes
+DATA_MODEL_REBUILD_PROMPT.md
+REMEDIATION_PROMPT.md
+SEARCH_REARCHITECT_PROMPT.md
+
